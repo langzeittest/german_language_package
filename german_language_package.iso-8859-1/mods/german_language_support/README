@@ -1,0 +1,77 @@
+Module: German Language Support Module
+Author: Oliver Riesen <oliver@riesen.org>
+
+Provides website specific text replacing for core and module language files,
+alternative terms for some key terms and an extended format for notification
+emails. Only German language support!
+
+Tested on version 5.2.16-rc2
+
+This file ist part of the German Language Files Package
+See also: docs/language-german-readme.txt
+
+Diese Datei ist Teil des Deutschen Sprachpakets
+Siehe auch: docs/language-german-readme.txt
+
+
+License:
+-------
+
+Free to use, modify, or redistribute this code so long as I am given credit for
+the original development somewhere. This code comes with absolutely no warranty.
+
+
+Installation:
+------------
+
+This module is part of the German Language Files Package. See installation
+instructions in: docs/language-german-readme.txt.
+
+After installation of the German Language Files Package:
+
+1. Optional: Login as administrator in Phorum´s administrative interface and go
+   to the "Modules" section.
+
+2. Optional: Enable the "German Language Support Module".
+
+
+Module settings:
+---------------
+
+1. Select translation for "Buddy"
+
+Select one of the offered translations for "Buddy": Buddy, Freund/Freundin,
+Kollege/Kollegin, Kumpel/Bekannte or Kontakt.
+
+The default value is "Kontakt".
+
+2. Select translation for "Sticky"
+
+Select one of the offered translations for "Sticky": Festgepinnt, Pickert
+[österr.][ugs.], Sticky or Wichtig.
+
+The default value is "Wichtig".
+
+3. Format of notification emails
+
+Select a format for the notification emails send to users. Standard format
+provides only a link to the new topic. Extended format includes additional the
+topic text.
+
+The default value is "Extended".
+
+
+Language support:
+----------------
+
+This module supports only German language.
+
+
+Sanity Checks:
+-------------
+
+If you have problems with this module login as administrator in Phorum´s
+administrative interface and go to the "System Sanity Checks" section. Check
+for warnings or errors for the German Language Support Module.
+
+
