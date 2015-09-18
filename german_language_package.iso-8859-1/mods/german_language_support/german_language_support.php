@@ -49,12 +49,11 @@ function mod_german_language_support_do_sanity_checks() {
          || !$PHORUM['mod_german_language_support']['buddy']
          || !isset($PHORUM['mod_german_language_support']['sticky'])
          || !$PHORUM['mod_german_language_support']['sticky']
-         || !isset($PHORUM['mod_german_language_support']['email_format'])
-         || !$PHORUM['mod_german_language_support']['email_format'] ) {
+         || !isset($PHORUM['mod_german_language_support']['email_format']) ) {
           return array(
                      PHORUM_SANITY_CRIT,
                      'The default settings for the module are missing.',
-                     'Login as administrator in Phorum´s administrative '
+                     'Login as administrator in Phorum&#x2019;s administrative '
                          .'interface and go to the &quot;Modules&quot; section. Open '
                          .'the module settings for the German Language Support '
                          .'Module and save the default values.'

@@ -5,7 +5,7 @@ Provides website specific text replacing for core and module language files,
 alternative terms for some key terms and an extended format for notification
 emails. Only German language support!
 
-Tested on version 5.2.16-rc2
+Tested on version 5.2.20
 
 This file ist part of the German Language Files Package
 See also: docs/language-german-readme.txt

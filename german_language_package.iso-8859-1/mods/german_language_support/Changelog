@@ -10,4 +10,7 @@ Changelog:
 
 2008/04/18 version 1.2.0 by Oliver Riesen (oliver@riesen.org)
 - Rewrite for Phorum 5.2.
-- Addition translation for "buddy": Kontakt.
+- Additional translation for "buddy": Kontakt.
+
+2015/08/04 version 1.2.1 by Oliver Riesen (oliver@riesen.org)
+- Update for Google Maps Module 2.0.6
