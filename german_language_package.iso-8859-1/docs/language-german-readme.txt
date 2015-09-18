@@ -1,20 +1,22 @@
 Package: German Language Files
-Version: 2.3.0
+Version: 2.4.0
 Author: Oliver Riesen <oliver@riesen.org>
+
+=== English instructions / Englische Anleitung ===
+
+German instructions: see below! Deutsche Anleitung: siehe unten!
 
 German language files for the Phorum core, core modules and frequently used
 modules. Offers three kind of forms of address and gender: formal "Sie",
 informal "Du" with male suffix for nouns and informal "Du" with female suffix
 (feminist).
 
-Tested on version 5.2.16-rc2
-
-German instructions: see below!
+Tested on version 5.2.20
 
 
 License:
-
 -------
+
 Free to use, modify, or redistribute this code so long as I am given credit for
 the original development somewhere. This code comes with absolutely no warranty.
 
@@ -47,8 +49,8 @@ Installation:
   /mods/german_language_support/lang/german*.php.
 
 
-Update from 2.1 to 2.2/2.3:
---------------------------
+Update from 2.1 to 2.2/2.3/2.4:
+------------------------------
 
 - Follow installation instruction.
 
@@ -252,38 +254,45 @@ Changelog:
 - Dynamic include of base language file changed; thanks to Maurice Makkay
   (http://www.phorum.org/phorum5/read.php?62,123960,130426#msg-130426)
 
+2015/09/17 version 2.4.0 by Oliver Riesen (oliver@riesen.org)
+- Additional comments for the "locale" setting.
+- Value for HCHARSET added.
+- German Language Support Module updated.
+- Fixing translations for Recent Messages Module.
+- Automatic Mobile Template Module added.
+
 
 === German instructions / Deutsche Anleitung ===
 
-Das Deutsche Sprachpaket erf?llt folgende W?nsche:
+Das Deutsche Sprachpaket erfüllt folgende Wünsche:
 
-- Vollst?ndige deutsche ?bersetzung f?r Phorum 5.2 (aktuell Version 5.2.16-rc2)
+- Vollständige deutsche Übersetzung für Phorum 5.2 (aktuell Version 5.2.20)
   inklusive der im Lieferumfang enthaltenen Module.
 
-- Vollst?ndige deutsche ?bersetzung f?r weitverbreitete zus?tzliche Module.
+- Vollständige deutsche Übersetzung für weit verbreitete zusätzliche Module.
 
-- Drei Varianten in der Anrede: "Sie" (f?rmlich), "Du" (formlos) und "Du" in
+- Drei Varianten in der Anrede: "Sie" (förmlich), "Du" (formlos) und "Du" in
   Verbindung mit weiblichen Wortendungen (wie "Teilnehmerin" und
   "Administratorin").
 
-- Auswahl aus verschiedenen ?bersetzungen f?r "Buddy" (Buddy, Freund/Freundin,
+- Auswahl aus verschiedenen Übersetzungen für "Buddy" (Buddy, Freund/Freundin,
   Kollege/Kollegin, Kumpel/Bekannte oder Kontakt) und "Sticky" (Festgepinnt,
-  Pickert [?sterr.][ugs.], Sticky oder Wichtig) ?ber die Administration.
+  Pickert [österr.][ugs.], Sticky oder Wichtig) über die Administration.
 
-- Auswahl zwischen einfachem und erweitertem Emailversand ?ber die
+- Auswahl zwischen einfachem und erweitertem Emailversand über die
   Administration. Beim erweiterten Emailversand werden Autor, Betreff und
-  Beitrag in die Email eingef?gt.
+  Beitrag in die Email eingefügt.
 
-- Individuelle ?nderungen vorhandener Texte oder Erg?nzung eigener Texte, ohne
-  dass diese bei zuk?nftigen Updates des German Language Files Packages
+- Individuelle Änderungen vorhandener Texte oder Ergänzung eigener Texte, ohne
+  dass diese bei zukünftigen Updates des German Language Files Packages
   verloren gehen.
 
 
 Welcher Zeichensatz? ISO-8859-1 oder UTF-8?
 ------------------------------------------
 
-Das Sprachpaket ist f?r zwei verschiedene Zeichens?tzen verf?gbar: ISO-8859-1
-(ein westeurop?ischer Zeichensatz) und UTF-8 (ein Unicode-Zeichensatz). Der
+Das Sprachpaket ist für zwei verschiedene Zeichensätzen verfügbar: ISO-8859-1
+(ein westeuropäischer Zeichensatz) und UTF-8 (ein Unicode-Zeichensatz). Der
 Zeichensatz ist in den Dateinamen der einzelnen Dateien enthalten.
 
 Beispiel:
@@ -291,59 +300,59 @@ Beispiel:
 - german.iso-8859-1.php
 - german.utf-8.php
 
-Die Wahl des "richtigen" Zeichensatzes f?r Ihr Diskussionforum h?ngt
-ausschlie?lich vom Zeichensatz Ihrer Datenbank ab. Pr?fen Sie daher, welchen
+Die Wahl des "richtigen" Zeichensatzes für Ihr Diskussionforum hängt
+ausschließlich vom Zeichensatz Ihrer Datenbank ab. Prüfen Sie daher, welchen
 Zeichensatz Ihre Datenbank verwendet. Bei MySQL entspricht der Zeichensatz
 "latin1" dem "ISO-8859-1".
 
-Verwenden Sie jeweils nur die Dateien eines Zeichensatzes f?r Ihr Forum.
+Verwenden Sie jeweils nur die Dateien eines Zeichensatzes für Ihr Forum.
 
 
-Erg?nzende Hinweise zur Installation:
+Ergänzende Hinweise zur Installation:
 ------------------------------------
 
-Nach dem Entpacken des Pakets in das Phorum-Verzeichnis steht zun?chst nur die
-deutsche ?bersetzung f?r die Kern-Software zur Verf?gung.
+Nach dem Entpacken des Pakets in das Phorum-Verzeichnis steht zunächst nur die
+deutsche Übersetzung für die Kern-Software zur Verfügung.
 
-Die ?bersetzungen f?r die Module m?ssen (sofern genutzt) in die einzelnen
+Die Übersetzungen für die Module müssen (sofern genutzt) in die einzelnen
 Modulverzeichnisse kopiert oder verschoben werden. Diese Unanehmlichkeit kommt
-daher, dass Phorum unvollst?ndige Modulverzeichnisse in der Administration
-bem?ngelt und daher die deutschen Sprachdateien nicht "auf Verdacht" an die
-richtigen Stellen abgelegt werden k?nnen.
+daher, dass Phorum unvollständige Modulverzeichnisse in der Administration
+bemängelt und daher die deutschen Sprachdateien nicht "auf Verdacht" an die
+richtigen Stellen abgelegt werden können.
 
-Achten Sie darauf, dass sie die Sprachdateien f?r alle vorhandenen Module
+Achten Sie darauf, dass sie die Sprachdateien für alle vorhandenen Module
 kopieren/verschieben.
 
-Nachdem Sie das German Language Support Module aktiviert haben, k?nnen Sie f?r
-"Buddy" und "Sticky" zwischen verschiedenen ?bersetzungen w?hlen. Zus?tzlich
-k?nnen Sie zwischen einem einfachen und erweiterten Emailversand w?hlen.
+Nachdem Sie das German Language Support Module aktiviert haben, können Sie für
+"Buddy" und "Sticky" zwischen verschiedenen Übersetzungen wählen. Zusätzlich
+können Sie zwischen einem einfachen und erweiterten Emailversand wählen.
 
-Bitte ?ndern Sie keine Texte in den Sprachdateien dieses Pakets! Sie erschweren
-sich damit zuk?nftige Updates. Wenn Sie Texte an eigene Bed?rfnisse anpassen
-m?chten oder zus?tzliche Texte f?r Ihr Template ben?tigen, bietet Ihnen das
+Bitte ändern Sie keine Texte in den Sprachdateien dieses Pakets! Sie erschweren
+sich damit zukünftige Updates. Wenn Sie Texte an eigene Bedürfnisse anpassen
+möchten oder zusätzliche Texte für Ihr Template benötigen, bietet Ihnen das
 German Language Support Module "leere" Sprachdateien, in denen Sie die Texte
-erg?nzen k?nnen (siehe nachfolgende Beschreibung).
+ergänzen können (siehe nachfolgende Beschreibung).
 
 
-?nderung von Texten:
+Änderung von Texten:
 -------------------
 
 Im Verzeichnis /mods/german_language_support/lang/ stehen Ihnen je Zeichensatz
-drei (leere) Dateien zur Verf?gung, in denen Sie vorhandene Texte von Phorum
-oder den Modulen nach Belieben ?ndern k?nnen:
+drei (leere) Dateien zur Verfügung, in denen Sie vorhandene Texte von Phorum
+oder den Modulen nach Belieben ändern können:
 
 - german.*.php ("Sie")
 - german-informal-male.*.php ("Du")
 - german-informal-female.*.php ("Du", weibliche Wortendung)
 
-So ist eine individuelle Anpassung der Texte an Ihre Bed?rfnisse m?glich, ohne
-dass sie sich zuk?nftige Updates von Phorum oder des deutschen Sprachpaketes
-erschweren (Ihre ?nderungen w?rden ja durch jedes Update ?berschrieben).
+So ist eine individuelle Anpassung der Texte an Ihre Bedürfnisse möglich, ohne
+dass sie sich zukünftige Updates von Phorum oder des deutschen Sprachpaketes
+erschweren (Ihre Änderungen würden ja durch jedes Update überschrieben).
 
-Tragen Sie alle Text?nderungen in german.*.php ein. Sie stehen dann automatisch
-auch in den beiden Du-Sprachvarianten zur Verf?gung. Wenn der Text auch als
-"Du"-Variante ben?tigt wird, tragen Sie ihn in german-du-male.*.php ein. Und
-wenn der Text W?rter enth?lt, f?r die auch eine weibliche Wortendung m?glich
+Tragen Sie alle Textänderungen in german.*.php ein. Sie stehen dann automatisch
+auch in den beiden Du-Sprachvarianten zur Verfügung. Wenn der Text auch als
+"Du"-Variante benötigt wird, tragen Sie ihn in german-du-male.*.php ein. Und
+wenn der Text Wörter enthält, für die auch eine weibliche Wortendung möglich
 ist, tragen Sie den Text in german-du-female.*.php ein.
 
 Beispiele:
@@ -397,7 +406,7 @@ Antwort: Die Sprachdateien werden in folgender Reihenfolge eingebunden:
   /mods/*/lang/german.*.php
   /mods/german_language_support/lang/german.*.php
 
-- Deutsch (Du) m?nnlich
+- Deutsch (Du) männlich
 
   /include/lang/german.*.php
   /include/lang/german-informal-male.*.php

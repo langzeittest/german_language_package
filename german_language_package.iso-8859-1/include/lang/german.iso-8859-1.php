@@ -36,13 +36,17 @@ $PHORUM['short_date'] = '%d.%m.%y';
 // Konsultieren Sie die Dokumentation zu PHP, um mehr über die Syntax
 // dieser Eintragungen zu erfahren:
 // http://de.php.net/manual/de/function.setlocale.php
+// Der Eintrag muss auf Ihrem Server auch vorhanden sein!
+// Unter Linux kontrollieren Sie dies mit "locale -a".
 //
-$PHORUM['locale'] = 'de_DE.UTF8';
+$PHORUM['locale'] = 'de_DE';
+// Alternativen:
 // $PHORUM['locale'] = 'de_DE';
 // $PHORUM['locale'] = 'de_AT';
 // $PHORUM['locale'] = 'de_CH';
 // $PHORUM['locale'] = 'de';
 // $PHORUM['locale'] = 'DE';
+// $PHORUM['locale'] = 'ge'; // Win XP und Win2000 Advanced Server
 
 // Numeric separators used to format numbers
 $PHORUM['thous_sep'] = '.';
@@ -62,7 +66,7 @@ $PHORUM['DATA']['CHARSET'] = 'iso-8859-1';
 // compatible with htmlspecialchars(), then you can leave this
 // variable empty. Otherwise, specify a compatible character
 // set (ISO-8859-1 is usually a good choice for this).
-$PHORUM["DATA"]['HCHARSET']="";
+$PHORUM['DATA']['HCHARSET']='ISO-8859-1';
 
 // Einige Sprachen benötigen eine zusätzliche Angabe des Zeichensatzes im
 // Meta-Tag.

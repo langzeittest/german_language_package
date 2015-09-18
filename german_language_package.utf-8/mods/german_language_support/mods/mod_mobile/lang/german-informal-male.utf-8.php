@@ -8,6 +8,6 @@
 // Das komplette Paket gibt es hier:
 // http://www.phorum.org/phorum5/read.php?65,129717
 
-$PHORUM['DATA']['LANG']['Moderators'] = 'Moderatoren';
+include(str_replace('-informal-male', '', __FILE__));
 
 ?>

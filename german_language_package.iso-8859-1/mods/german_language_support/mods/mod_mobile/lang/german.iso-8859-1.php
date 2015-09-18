@@ -8,6 +8,12 @@
 // Das komplette Paket gibt es hier:
 // http://www.phorum.org/phorum5/read.php?65,129717
 
-$PHORUM['DATA']['LANG']['Moderators'] = 'Moderatoren';
+$PHORUM['DATA']['LANG']['mod_mobile'] = array(
+    'Back'        => 'Zurück',
+    'ForumList'   => 'Foren',
+    'MessageList' => 'Themen',
+    'NewTopic'    => 'Neu',
+    'PM'          => 'PN'
+);
 
 ?>

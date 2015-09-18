@@ -10,9 +10,9 @@
 
 include(str_replace('-informal-male', '', __FILE__));
 
-$PHORUM['DATA']['LANG']['mod_google_maps']['CCIntroduction']      = 'Du kannst in der Karte Deinen Standort (Wohnort) markieren. Die Markierung kannst Du mit einem Doppelklick setzen und mit der Maus verschieben. Alternativ kannst Du die Suche benutzen. Siehe auch die Hilfe.<br />Beispiel: "Platz der Republik 1, 11011 Berlin, Germany"';
+$PHORUM['DATA']['LANG']['mod_google_maps']['CCIntroduction']      = 'Du kannst in der Karte Deinen Standort (Wohnort) markieren. Die Markierung kannst Du mit einem Doppelklick setzen und mit der Maus verschieben. Alternativ kannst Du auch die Suche benutzen.';
 $PHORUM['DATA']['LANG']['mod_google_maps']['IncompatibleBrowser'] = 'Entschuldige, Dein Browser ist inkompatibel. Die für Google Maps benötigten Funktionen fehlen.';
 $PHORUM['DATA']['LANG']['mod_google_maps']['NoSearchResults']     = 'Entschuldige, es wurde kein Ergebnis für Deine Suchanfrage gefunden.';
-$PHORUM['DATA']['LANG']['mod_google_maps']['YourLocation']        = 'Dein Standort:';
+$PHORUM['DATA']['LANG']['mod_google_maps']['YourLocation']        = 'Dein Standort';
 
 ?>

@@ -4,7 +4,7 @@ author: Oliver Riesen <oliver@riesen.org>
 url: http://www.phorum.org/phorum5/read.php?65,129717
 category: misc
 required_version: 5.2.0
-version: 1.2.0
+version: 1.2.1
 
 run hook lang after *
 

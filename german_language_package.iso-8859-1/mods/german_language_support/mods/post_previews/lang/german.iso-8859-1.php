@@ -11,7 +11,8 @@
 $PHORUM['DATA']['LANG']['phorum_mod_post_previews'] = array(
      'DisablePreviews' => 'Beitragsvorschau (Tooltipps) ausschalten: ',
      'DisablePreviewsNo' => 'nein',
-     'DisablePreviewsYes' => 'ja'
+     'DisablePreviewsYes' => 'ja',
+     'MarkReadHelp' => 'Strg+Rechtsklick markiert Beitrag als gelesen.<br />Strg+Umsch+Rechtsklick markiert Thema als gelesen.'
 );
 
 ?>
