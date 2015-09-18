@@ -82,6 +82,9 @@ Module support:
 
 The German Language Files Package supports the following modules:
 
+- Automatic Mobile Template
+  http://www.phorum.org/phorum5/read.php?62,147914
+
 - BBCode (Core)
 
 - BBcode Google
