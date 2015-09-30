@@ -222,6 +222,13 @@ language file, but this "include" is not executed by the "Manage Language
 Files" part of administration.
 
 
+Contribution:
+------------
+
+Contribute on GitHub:
+https://github.com/langzeittest/german_language_package
+
+
 Changelog:
 ---------
 
@@ -429,3 +436,10 @@ Antwort: Die Sprachdateien werden in folgender Reihenfolge eingebunden:
   /mods/german_language_support/lang/german.*.php
   /mods/german_language_support/lang/german-informal-male.*.php
   /mods/german_language_support/lang/german-informal-female.*.php
+
+
+Mitwirkung:
+----------
+
+Beteilige Dich auf GitHub:
+https://github.com/langzeittest/german_language_package
