@@ -14,3 +14,8 @@ Changelog:
 
 2015/08/04 version 1.2.1 by Oliver Riesen (oliver@riesen.org)
 - Update for Google Maps Module 2.0.6
+
+2016/04/20 version 1.2.2 by Oliver Riesen-Mallmann (oliver@riesen.org)
+- Obsolete assignment by reference (&new) removed; see:
+  http://www.phorum.org/phorum5/read.php?61,156894,157057#msg-157057;
+  thanks to Fabian Bastin (http://www.phorum.org/phorum5/profile.php?61,3024).

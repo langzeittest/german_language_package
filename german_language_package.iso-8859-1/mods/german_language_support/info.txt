@@ -1,10 +1,10 @@
 title: German Language Support Module
 desc: Provides website specific text replacing for core and module language files, alternative terms for some key terms and an extended format for notification emails. Only German language support!
-author: Oliver Riesen <oliver@riesen.org>
+author: Oliver Riesen-Mallmann <oliver@riesen.org>
 url: http://www.phorum.org/phorum5/read.php?65,129717
 category: misc
 required_version: 5.2.0
-version: 1.2.1
+version: 1.2.2
 
 run hook lang after *
 

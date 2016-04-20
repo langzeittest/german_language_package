@@ -45,7 +45,7 @@ if (!isset($PHORUM['mod_german_language_support']['email_format'])) {
 
 // We build the settings form by using the PhorumInputForm object.
 include_once './include/admin/PhorumInputForm.php';
-$frm =& new PhorumInputForm('', 'post', 'Save');
+$frm = new PhorumInputForm('', 'post', 'Save');
 $frm->hidden('module', 'modsettings');
 $frm->hidden('mod', 'german_language_support');
 
